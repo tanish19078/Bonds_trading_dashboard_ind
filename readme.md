@@ -1,6 +1,6 @@
 # 🚀 Bond Liquidity Trading Platform (BLTP)
 
-A modern, interactive fintech web application for bond trading with AI-powered insights, real-time market data, and institutional-grade analytics.
+A modern, interactive fintech web application for bond trading with AI-powered insights, real-time market data, and institutional-grade analytics. Currently in a development stage with some features being worked on in parallel to some more existing improvements
 
 ![BLTP Preview](https://img.shields.io/badge/Status-Production%20Ready-green)
 ![React](https://img.shields.io/badge/React-18+-blue)
@@ -284,6 +284,9 @@ The application is designed for easy backend integration:
 - **Maintainability** - Clean, documented code structure
 
 ## 📈 **Future Enhancements**
+- Curently reloads a analysis score every second , which would be later fixed to every few minutesor hours taken on a average basis .
+- Improvising and making it more user friendly with addition of real education modules in learning tab
+- Creation of a multi use case calculator to ensure easy understanding of yields & particularly investment analysis
 
 ### **Planned Features**
 - **Real-time Market Integration** - Live NSE/BSE data feeds
