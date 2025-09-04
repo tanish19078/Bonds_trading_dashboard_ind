@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import LandingPage from './components/LandingPage';
@@ -6,6 +7,9 @@ import Portfolio from './components/Portfolio';
 import LearningDashboard from './components/LearningDashboard';
 import AIChat from './components/AIChat';
 import NewsTicker from './components/NewsTicker';
+
+const API_BASE = import.meta.env.VITE_API_URL; 
+// Example: Fetch news fetch(${API_BASE}/api/news) .then(res => res.json()) .then(data => console.log(data)) .catch(err => console.error(err)); in which file to add?
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<'landing' | 'dashboard' | 'portfolio' | 'learning'>('landing');
